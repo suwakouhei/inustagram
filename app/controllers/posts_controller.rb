@@ -3,4 +3,8 @@ class PostsController < ApplicationController
     @posts = Post.all
   end
 
+  def new
+    @tweet = Tweet.new
+  end
+
 end
