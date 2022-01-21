@@ -4,7 +4,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    @tweet = Tweet.new
+    @post = Post.new
   end
 
 end
