@@ -1,0 +1,5 @@
+<%= form_with(model: post, local: true) do |form| %>
+  <%= form.text_field :photo, placeholder: "Photo Url" %>
+  <%= form.text_area :text, placeholder: "Text", rows: "10" %>
+  <%= form.submit "SEND" %>
+<% end %>
